@@ -1,3 +1,7 @@
+//O javascript é uma linguagem com tipagem dinâmica, os tipos de variaveis não precisam ser definida
+//no incio do programa. Ela é uma linguagem inetrpretada, são interpretados em tempo real e executado
+//pelo navegadr no momento em que o usuário acessar a página
+
 //Declaração de variaveis, 2 sem definição de valor e duas com valor padrão
 
 var nome;
