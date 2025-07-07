@@ -14,3 +14,8 @@ var variavelGlobal;
 function local(){
     var variavelLocal;
 }
+
+//Declaração de vetores
+
+var vetor = Array;
+var outroVetor = Array(1,2,3,4,5);
