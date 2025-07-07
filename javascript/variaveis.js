@@ -8,3 +8,9 @@ var pergunta = "Qual sua idade?";
 //Declaração de variavel global (variavel fora de uma função, for ou etc)
 
 var variavelGlobal;
+
+//Declaração de variavel local (variavel dentro de função, for e etc)
+
+function local(){
+    var variavelLocal;
+}
