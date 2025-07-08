@@ -23,3 +23,9 @@ function local(){
 
 var vetor = new Array;
 var outroVetor = new Array(1,2,3,4,5);
+
+//Outra forma de declaração de vetor é não declarar e tratar ela como um vetor
+
+var vetor;
+vetor[2] = "livro";
+vetor[4] = "Ajax";
