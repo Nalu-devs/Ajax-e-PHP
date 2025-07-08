@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Mudar cor do site</title>
+</head>
+<body>
+    <p><a href="#" onclick="mostrarTabela('blue');">Tabela azul</a></p>
+    <p><a href="#" onclick="mostrarTabela('red');">Tabela Vermelha</a></p>
+
+    <script>
+
+        //Programa que exibe dois links um para a tela ficar azul e outro para tela ficar vermelha
+        function mostrarTabela(cor){
+            document.write("<table bgcolor=" + cor + " border=1>");
+            document.write("<tr><td>");
+                if(cor=='blue'){
+                    document.write("O fundo desta tabela é azul!");
+                }
+                else if(cor=='red'){
+                    document.write("O fundo desta tabela é vermelho!");
+                }
+                document.write("</td></tr>");
+                document.write("</table>");
+        }
+        
+    </script>
+</body>
+</html>
