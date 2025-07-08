@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Inetragindo com o usuário</title>
+</head>
+<body onload="teste()"> <!-- Aqui serve para quando a pagina carregar a função já ser chamada -->
+    <script>
+
+        //Podemos interagir com o usuário de diversas formas algumas são com os comandos alert, confirm e prompt
+        //O alert serve para exibir uma mensagem
+        //O confirm exibi uma mensagem e dois botoes, se o usuario confirma ele retorna valor verdadeiro
+        //O prompt exibi uma mensagem e solicita a digitação de algum dado
+
+        function teste(){
+            alert("Seja bem-vindo ao meu site!");
+            if(confirm("Deseja continuar?")){
+                var nome = prompt("Digite seu nome");
+                document.write ("Olá " + nome + "! Obrigada por visitar meu site!");
+            }
+        }
+    </script>
+</body>
+</html>
