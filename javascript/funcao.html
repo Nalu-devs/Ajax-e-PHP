@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Funções</title>
+</head>
+
+<body>
+    <script>
+
+        //Para declarar uma função tradicional usamos a seguinte sintaxe
+
+        // function nome_funcao(<parametros...>){
+        //     <comandos>
+        //     [return valor]
+        // }
+
+        //Uma função para retornar o quadrado de um numero
+        function quadrado(valor) {
+            var q = valor * valor;
+            return q;
+        }
+        document.write("O quadrado de 20 é " + quadrado(20));
+
+        //Na função a cima o parametro já foi definido, porem é possivel enviar parametros a ela.
+        //teriamos parametros anonimos
+        function quadradoSemParametro() {
+            var q = quadradoSemParametro.arguments[0]*quadradoSemParametro.arguments[0];
+            return q;
+        }
+        document.write("<br/>"+"O quadrado de 50 é " + quadradoSemParametro(50) + "<br/>");
+
+        //Conseguimos tambem declarar funções dentro de variaveis a sintaxe fica assim:
+        //var funcao = new Function (<paramentro>, <codigo>)
+        //Um exemplo de uma função assim na multiplicação de dois numeros
+
+        var multiplicacao = new Function ("a","b","return a*b");
+        document.write("Multiplicando 10 por 5 obtemos " + multiplicacao(10,5));
+
+    </script>
+</body>
+
+</html>
