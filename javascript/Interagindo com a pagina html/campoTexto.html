@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Campos de texto</title>
+</head>
+
+<body>
+
+    <form name="formulario">
+        <input type="text" name="numero" value="1">
+        <input type="button" value="incrementa" onclick="incrementa()">
+    </form>
+    <script>
+
+        //No js podemos manipular elementos de uma pagina, o seguinte programa manipula um campo do tipo texto em um formulario.
+        function incrementa() {
+            document.formulario.numero.value++;
+            //acima o html busca o documento, dentro do formulario, procura o numero e acrescenta mais um no valor já colocado de inicio
+        }
+    </script>
+</body>
+
+</html>
