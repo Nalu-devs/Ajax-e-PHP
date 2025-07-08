@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>Operadores</title>
+</head>
+
+<body>
+    <script>
+
+        var op1 = 4;
+        var op2 = 2;
+
+        //Operadores aritméticos que nos permitem efetuar operações matemáticas com dados do tipo numérico
+
+        document.write("Primeiro número: " + op1 + "<br/>" + "Segundo número: " + op2 + "<br/>");
+
+        var adicao = op1 + op2;
+        document.write("<br/>" + "A soma é igual a: " + adicao + "<br/>");
+
+        var subtracao = op1 - op2;
+        document.write("A subtracao é igual a: " + subtracao + "<br/>");
+
+        var multiplicacao = op1 * op2;
+        document.write("A multiplicacao é igual a: " + multiplicacao + "<br/>");
+
+        var divisao = op1 / op2;
+        document.write("A divisao é igual a: " + divisao + "<br/>");
+
+        var restoDivisao = op1 % op2;
+        document.write("O resto da divisao é igual a: " + restoDivisao + "<br/>");
+
+        var incremento = op1++;
+        document.write("O incremento é igual a: " + incremento + "<br/>");
+
+        var decremento = op1--;
+        document.write("O decremento é igual a: " + decremento + "<br/>");
+
+        //Se no operador matemático um dos operadores for do tipo texto o valor será concatenado e não somado
+        var texto1 = "Juliano ";
+        var texto2 = "Niederauer";
+        document.write("<br/>" + texto1 + texto2 + "<br/>");
+
+        //Existe diferentes maneiras de atribuir valores de diferentes formas às variáveis
+
+        op1 = op2;
+        document.write("<br/>" + "O Nº 1 recebe o valor de Nº 2: " + op1 + "<br/>");
+
+        //O mesmo que op1 = op1 + op2
+        op1 += op2;
+        document.write("O Nº 1 se torna a soma do Nº 1 mais Nº 2: " + op1 + "<br/>");
+
+        //O mesmo que op1 = op1 - op2
+        op1 -= op2;
+        document.write("O Nº 1 se torna a subtração do Nº 1 menos Nº 2: " + op1 + "<br/>");
+
+        //O mesmo que op1 = op1 * op2
+        op1 *= op2;
+        document.write("O Nº 1 se torna a multiplicação do Nº 1 vezes Nº 2: " + op1 + "<br/>");
+
+        //O mesmo que op1 = op1 / op2
+        op1 /= op2;
+        document.write("O Nº 1 se torna a divisão do Nº 1 dividido Nº 2: " + op1 + "<br/>");
+
+        //O mesmo que op1 = op1 % op2
+        op1 %= op2;
+        document.write("O Nº 1 se torna o resto da divisão do Nº 1 dividido Nº 2: " + op1 + "<br/>");
+
+        //Existe também operadires logicos e de comparação
+
+        //!op1: Verdadeiro se op1 for falso
+        //op1 && op2: Verdadeiro se op1 E op2 forem verdadeiros
+        //op1 || op2: Verdadeiro se op1 OU op2 forem verdadeiros
+        //op1 == op2: Verdadeiro se op1 for igual a op2
+        //op1 != op2: Verdadeiro se op1 for diferente de op2
+        //op1 > op2: Verdadeiro se op1 for maior que op2
+        //op1 < op2: Verdadeiro se op1 for menor que op2
+        //op1 >= op2: Verdadeiro se op1 for igual ou maior que op2
+        //op1 <= op2: Verdadeiro se op1 for igual ou menor que op2
+        
+    </script>
+</body>
+
+</html>
