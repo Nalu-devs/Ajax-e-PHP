@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Checkbox</title>
+</head>
+<body>
+    <form name="formulario">
+        Aqui vai o texto do contrato<br>
+        <input type="checkbox" name="aceitar" value="sim">Aceito o contrato<br>
+        <input type="button" value="Prosseguir" onclick="verificar()">
+    </form>
+
+    <script>
+
+        //A verificação de um input com type igual a checkbox é feita pela propriedade checked
+
+        function verificar(){
+            if(document.formulario.aceitar.checked==false){ //Se a checkbox n estiver marcada cai nesse if
+                alert("Você deve aceitar os termos do contrato!")
+            }
+            else{//Se estiver marcada cai nesse
+                alert("Concluido!")
+            }
+        }
+    </script>
+</body>
+</html>
