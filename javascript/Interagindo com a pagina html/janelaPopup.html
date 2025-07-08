@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Janela Popup</title>
+</head>
+<body>
+
+    <p><a href="#" onclick="janelaAviso();">Acessar site</a></p>
+
+    <script>
+        
+        //Para abrirmos janelas popup usamos o comando window.open com a sintaxe:
+        //window.open(endereco, nome da janela, opcoes);
+        //util para se caso um visitante acessar seu site você diga para ele se cadastrar. Exemplo:
+
+        function janelaAviso(){
+            janela = window.open('', 'Cadastro', 'width=2000, height=2000, toolbar=no, location=no, status=no, scrollbars=no, resizable=no');
+            janela.document.write("<p>Para acessar o site faça o cadastro!</p>");
+            janela.document.write("<p><a href='javascript:window.close();'>Fechar</a></p>");
+        }
+    </script>
+</body>
+</html>
