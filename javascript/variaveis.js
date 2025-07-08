@@ -19,7 +19,7 @@ function local(){
     var variavelLocal;
 }
 
-//Declaração de vetores
+//Declaração de vetores o new serve para declarar novo objeto abrir um novo espaço na memória (js n obriga mas outras linguagens sim)
 
-var vetor = Array;
-var outroVetor = Array(1,2,3,4,5);
+var vetor = new Array;
+var outroVetor = new Array(1,2,3,4,5);
