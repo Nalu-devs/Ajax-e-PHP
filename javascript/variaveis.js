@@ -29,3 +29,8 @@ var outroVetor = new Array(1,2,3,4,5);
 var vetor;
 vetor[2] = "livro";
 vetor[4] = "Ajax";
+
+//Para obter a quantidade de elementos de um vetor usamos o atributo length
+
+var vetor = new Array (1, 2, 3);
+document.write("O vetor possui " + vetor.length + " elementos")
