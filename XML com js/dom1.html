@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Adiciona itens</title>
+    <script>
+        function incluir(){
+            var texto = document.meuForm.texto.value
+            var lista = document.getElementById("minhaLista")//Pega o elemento com o id minhaLista e trasnforma em lista
+            var novoItem = document.createElement("LI")//Cria o elemento li e coloca como novoItem
+            var novoTexto = document.createTextNode(texto)//usado para criar somente texto sem tags html
+            lista.appendChild(novoItem)//Adiciona um nó como filho do elemento lista
+            novoItem.appendChild(novoTexto)
+        }
+        </script>
+    </head>
+    <body>
+        <form name="meuForm">
+            <input type="text" name="texto">
+            <input type="button" value="Inserir" onclick="incluir()">
+        </form>
+        <ul id="minhaLista">
+            <li></li>
+        </ul>
+    </body>
+</html>
