@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Lista de seleção</title>
+</head>
+<body>
+    <form name="form">
+        <select name="avaliar">
+            <option value="1">Bom</option>
+            <option value="2">Médio</option>
+            <option value="3">Ruim</option>
+        </select>
+        <input type="button" value="ok" onclick="propriedades()">
+    </form>
+    <script>
+        function propriedades(){
+            var indice = document.form.avaliar.selectedIndex; //O . serve para acessar a propriedade de um objeto, por exemplo, dentro de documento acessar o form, dentro do form acessar avaliar e etc
+            var texto = "Indice de opcao escolhida: " + indice; //Mostra qual a posição do indice da sua escolha
+            texto += "\nNúmero de opções do select: " + document.form.avaliar.length; //O mais igual junta isso com a outra parte da variavel. Mostra quantas escolhas tem (3)
+            texto += "\nValor da opção escolhida: " + document.form.avaliar.options[indice].value; //Mostra o valor dentro da escolha 
+            texto += "\nTexto da opção escolhida: " + document.form.avaliar.options[indice].text; //Mostra o texto da escolha
+            alert(texto);//Aparece tudo na tela
+        }
+    </script>
+</body>
+</html>
