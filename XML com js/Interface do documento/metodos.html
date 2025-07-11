@@ -9,9 +9,14 @@
     <script>
         function criaColuna(){
             var linha = document.getElementById("linha")
+            var coluna = document.getElementById("coluna")
             var novaColuna = document.createElement("td")
+            var novaLinha = document.createElement("tr")
             var novoTexto = document.createTextNode("Nova coluna")
+            var novoTextoLinha = document.createTextNode("Nova linha")
             novaColuna.appendChild(novoTexto)
+            novaLinha.appendChild(novoTextoLinha)
+            coluna.appendChild(novaLinha)
             linha.appendChild(novaColuna)
         }
     </script>
@@ -20,7 +25,10 @@
         <a href="javascript: criaColuna()">Criar coluna</a>
         <table border="1">
             <tr id="linha">
+                
             </tr>
+            <td id="coluna">
+                </td>
         </table>
     </body>
 </html>
