@@ -1,0 +1,42 @@
+body{
+    background-color: #ccc;
+    color: #000;
+}
+
+h1{
+    font-size: 16pt;
+    font-weight: bold;
+    color: #00f;
+}
+
+h2{
+    font-size: 14pt;
+    font-style: normal;
+    color: #000080;
+}
+
+.rodape{
+    font-size: 10pt;
+    color: #000080;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffff00;
+}
+
+.caixa{
+    border-style: dashed;/*Deixa a borda traçada*/
+    border-color: #747070;
+    background-color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+a:link{/*A pseudoclasse link é para links normais, e a visited é para links visitados*/
+    color: #000;
+}
+
+a:link:hover{
+    color:#ff0000;
+    text-decoration: none;
+}
