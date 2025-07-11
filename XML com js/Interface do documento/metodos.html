@@ -1,0 +1,23 @@
+<!--createELement cria um elemento do tipo especificado ex:-->
+
+<html>
+    <head>
+        <title>createELement</title>
+    <script>
+        function criaColuna(){
+            var linha = document.getElementById("linha")
+            var novaColuna = document.createElement("td")
+            var novoTexto = document.createTextNode("Nova coluna")
+            novaColuna.appendChild(novoTexto)
+            linha.appendChild(novaColuna)
+        }
+    </script>
+    </head>
+    <body>
+        <a href="javascript: criaColuna()">Criar coluna</a>
+        <table border="1">
+            <tr id="linha">
+            </tr>
+        </table>
+    </body>
+</html>
