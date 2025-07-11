@@ -1,0 +1,23 @@
+p{
+    font-size: 12pt;
+    font-weight: bold;
+    color: #00f;
+}
+
+/*Quando queremos chamar uma class no css usamos um . na frente do nome da class*/
+.minhaTabela{
+    font-size: 12pt;
+    color: #000080;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFD291;
+    border: 1px solid;
+}
+
+/*Quando colocamos uma tag e depois uma class estamos aplicando somente em determinadas ocorrencias dessa tag*/
+p.destaque{
+    color: red;
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: #ffffcc;
+}
