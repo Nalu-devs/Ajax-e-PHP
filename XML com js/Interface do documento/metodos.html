@@ -50,4 +50,27 @@ var saida = principal.getAttribute('temp')
 
 
 <!--getelementbyid retorna o elemento que possui o id único fornecido como parâmetro-->
+
 <!--getElementsByTsgName retorna um array contendo a relação dos nodos filho do elemento ex:-->
+
+<html>
+<head>
+<title>Exemplo getElementsByTagName</title>
+<script>
+function mostraFilho(){
+var celulas = document.getElementsByTagName('td')
+for(i=0; i<celulas.length ; i++){
+var e = celulas[i].childNodes
+alert(e[0].nodeValue)
+}
+}
+</script>
+</head>
+<body>
+<table border='1'>
+<tr><td>Novatec Editora</td></tr>
+<tr><td>Livro de PHP</td></tr>
+</table>
+<a href="javascript:mostraFilho()">Mostrar filhos</a>
+</body>
+</html>
