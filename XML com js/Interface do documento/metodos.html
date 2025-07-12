@@ -1,8 +1,5 @@
 <!--createELement cria um elemento do tipo especificado ex:-->
-<!--createTextNode cria um nodo de texto e retorna um objeto do tipo texto-->
-<!--createComment cria um nodo de comentario retorna um objeto do tipo comentario-->
-<!--createProcessingInstruction cria um nodo de instrução de processamento-->
-<!--createAttribute cria um atributo com base no nome informado -->
+
 <html>
     <head>
         <title>createELement</title>
@@ -32,3 +29,25 @@
         </table>
     </body>
 </html>
+
+
+<!--createTextNode cria um nodo de texto e retorna um objeto do tipo texto-->
+
+<!--createComment cria um nodo de comentario retorna um objeto do tipo comentario-->
+
+<!--createProcessingInstruction cria um nodo de instrução de processamento ex:-->
+
+var instrucao = document.createProcessingInstruction('php','echo("Exemplo")')
+
+
+<!--createAttribute cria um atributo com base no nome informado ex:-->
+
+var principal = document.getElementById('doc')
+var atributo = document.createAttribute('temp')
+atributo.value = 'temporario'
+principal.setAttributeNode(atributo)
+var saida = principal.getAttribute('temp')
+
+
+<!--getelementbyid retorna o elemento que possui o id único fornecido como parâmetro-->
+<!--getElementsByTsgName retorna um array contendo a relação dos nodos filho do elemento ex:-->
