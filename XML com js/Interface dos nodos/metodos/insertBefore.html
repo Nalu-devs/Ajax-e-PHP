@@ -1,0 +1,26 @@
+<!--insertBefore: insere um novo nodo antes daquele que for especificado (se não for especificado insere no fim da lista de filhos)-->
+
+<html>
+    <head>
+        <title>Insert before</title>
+        <script>
+            function inserir(){
+                var novo = document.createElement("span")
+                var novoConteudo = document.createTextNode("Inserindo novo texto")
+                novo.appendChild(novoConteudo)
+                var textoAtual = document.getElementById("t1")
+                var paiAtual = textoAtual.parentNode
+                paiAtual.insertBefore(novo, textoAtual)
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <span id="t1">Texto 1</span>
+            <button onclick="inserir()">Inserir</button>
+        </div>
+    </body>
+</html>
+
+<!--Não existe insertAfter, mas da para combinar da seguite forma:
+paiAtual.insertBefore(novo, textoAtual.nextSibling)-->
