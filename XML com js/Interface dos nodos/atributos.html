@@ -1,0 +1,27 @@
+<!--nodeName: indica o nome do nodo, depende do seu tipo (ver atributos nodeType e nodeValue)-->
+<!--nodeValue: indica o valor do nodo, depende do seu tipo ex:-->
+
+<html>
+
+<head>
+    <title>Nodo value</title>
+    <script>
+        function alteraTexto() {
+            txt = document.getElementById("um").firstChild.nodeValue //firstChild retorna o primeiro nó filho 
+            document.getElementById("um").firstChild.nodeValue = "O texto foi alterado!"
+        }
+
+        function voltaTexto(){
+            txt = document.getElementById("um").firstChild.nodeValue
+            document.getElementById("um").firstChild.nodeValue = "Este é o texto original."
+        }
+    </script>
+</head>
+
+<body>
+    <p id="um">Este é o texto original.</p>
+    <button onclick="alteraTexto()">Alterar</button>
+    <button onclick="voltaTexto()">Voltar</button>
+</body>
+
+</html>
