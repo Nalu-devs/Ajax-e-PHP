@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>XML</title>
+        <script>
+            var docXML = null
+
+            function criaXML(){
+                if(window.ActiveXObject)//internet Explore
+                {
+                    docXML = new ActiveXObject("msxm12.DOMDocument.3.0")
+                    docXML.async = false
+                    docXML.load("futebol.xml")
+                }
+                else if(document.implementation && document.implementation.createDocument){
+                    docXML = document.implementation.createDocument("", "doc", null)
+                }
+            }
+
+            function exibeXML(){
+                if(docXML == null){
+                    alert('Erro na utilização do XMLdocument')
+                }
+                else{
+                    raiz = docXML.getElementsByTagName("jogadores")[0]
+                    var e = document.getElementById('texto')
+                    var t = document.createTextNode(raiz.xml)
+                    e.appendChild(t)
+                }
+            }
+
+            function insereJogador(nome, posicao){
+                raiz = docXML.getElementsByTagName("jogadores")[0]
+                var novo = docXML.createElement('jogador')//tag jogador
+                var n = docXML.createElement('nome')//tag nome
+                var t = docXML.createTextNode(nome)
+                n.appendChild(t)
+                var p = docXML.createElement('posicao')//tag posicao
+                var t2 = docXML.createTextNode(posicao)
+                p.appendChild(t2)
+                novo.appendChild(n)
+                novo.appendChild(p)
+                raiz.appendChild(novo)
+            }
+        </script>
+    </head>
+    <body>
+        <pre><div id="texto"></div></pre>
+        <script>
+            criaXML()
+            insereJogador('Cicinho', 'Lateral')
+            exibeXML()
+        </script>
+    </body>
+</html>
