@@ -1,0 +1,33 @@
+<!--nodeType: indica o codigo fonte que representa o tipo do objeto:
+1) ELEMENT_NODE: nodo do tipo elemento
+2) ATTRIBUTE_NODE: nodo do tipo atributo
+3) TEXT_NODE: nodo do tipo texto
+4) CDATA_SECTION_NODE: nodo do tipo CDATASection
+5) ENTITY_REFERENCE_NODE: nodo do tipo referencia de entidade
+6) ENTITY_NODE: nodo do tipo entidade
+7) PROCESSING_INSTRUCTION_NODE: nodo do tipo instrução de processamento
+8) COMMENT_NODE: nodo do tipo comentario
+9) DOCUMENT_NODE: nodo do tipo documento
+10) DOCUMENT_TYPE_NODE: nodo de tipo de documento 
+11) DOCUMENT_FRAGMENT_NODE: nodo do tipo fragmento de documento
+12) NOTATION_NODE: nodo do tipo notação
+
+São listados nessa sequencia 1, 2, 3, 4...-->
+
+<!DOCTYPE html>
+    <head>
+        <title>Nodo type</title>
+        <script>
+            function nodoFilho(){
+                filhos = document.childNodes//pega todos os nodos do documento html
+                for(i=0; i<filhos.length; i++){
+                    if(filhos[i].nodeType == 1)//verifica se o nodo é do tipo element
+                    alert(filhos[i].nodeName)
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="nodoFilho()">O nodo filho do documento é...</button>
+    </body>
+</html>
