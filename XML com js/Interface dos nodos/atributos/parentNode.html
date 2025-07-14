@@ -1,0 +1,20 @@
+<!--parentNode: indica o pai deste nodo
+O codigo a seguir mostra o nome do nodo pai de um paragrafo, body-->
+<html>
+    <head>
+        <title>Parent nodo</title>
+        <script>
+            function nodoPai(){
+                nodoAtual = document.getElementById("paragrafo")
+                pai = nodoAtual.parentNode
+                if(pai){
+                    if(pai.nodeType == 1){
+                        alert("O nodo pai do paragrafo é: " + pai.nodeName)
+                    }
+                }
+            }
+        </script>
+    </head>
+    <p id="paragrafo">Este é um paragrafo</p>
+    <button onclick="nodoPai()">Ver nodo pai</button>
+</html>
