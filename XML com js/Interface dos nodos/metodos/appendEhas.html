@@ -1,0 +1,24 @@
+<!--appendChild: adiciona um nodo no final da lista de filhos do nodo especificado-->
+<!--hasChildNodes: retorna true se o nodo especificado tem filhos, se não retorna False-->
+
+<html>
+    <head>
+        <title>Has child nodes</title>
+        <script>
+            function remover(){
+                obj = document.getElementById("itens")
+                while(obj.hasChildNodes() == true){
+                    obj.removeChild(obj.childNodes[0])
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="itens">
+            <div id="i1">Item 1</div>
+            <div id="i2">Item 2</div>
+            <div id="i3">Item 3</div>
+        </div>
+        <button onclick="remover()">Remover itens</button>
+    </body>
+</html>
