@@ -1,0 +1,25 @@
+<!--replaceChild: substitui um nodo por outro na lista de filhos e retorna o nodo antigo:
+nodoSubstituido = nodoPai. replaceChild(novoNodo, nodoAntigo)-->
+<!--removeChild: remove o nodo especificado da lista de filhos e retorna ele-->
+
+<html>
+    <head>
+        <title>Remove child</title>
+        <script>
+            function remover(){
+                var d = document.getElementById("times")
+                var time = document.getElementById("mengo")
+                if(time){
+                    var removido = d.removeChild
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="times">
+            <div id="gremio">Gremio</div>
+            <div id="mengo">Flamengo</div>
+        </div>
+        <button onclick="remover()">Remover Flamengo</button>
+    </body>
+</html>
