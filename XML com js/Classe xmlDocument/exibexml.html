@@ -8,8 +8,8 @@
                 if(window.ActiveXObject)//internet Explore
                 {
                     docXML = new ActiveXObject("msxm12.DOMDocument.3.0")
-                    docXML.async = false
-                    docXML.load("futebol.xml")
+                    docXML.async = false //Indica que não se dve esperar o modo sincrono
+                    docXML.load("futebol.xml")//carrega o arquivo futebol.xml
                 }
                 else if(document.implementation && document.implementation.createDocument){
                     docXML = document.implementation.createDocument("", "doc", null)
