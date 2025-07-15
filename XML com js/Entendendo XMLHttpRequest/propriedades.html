@@ -1,0 +1,30 @@
+<!-- onreadystatechange: define a função a ser manipulada os eventos, ou seja será ativada a cada mudança
+ex: ajax.open("GET", "produto.php?id=" + idProduto, true)
+ajax.onreadystatechange = function(){
+    if(ajax.readyState == 4){ //foi carregado
+        if(ajax.status == 200){ //o status é "OK"
+            alert(ajax.responseText) //exibe a resposta como texto
+        }
+    }
+}
+ajax.send(null) -->
+
+<!-- readyState: retorna o estado do objeto, valores 0 (não inicializado), 1 (aberto), 2 (enviado), 
+3 (recebendo), 4 (carregado)
+ex: 
+if(ajax.readyState == 4){
+    if(ajax.status == 200){
+        //processa resultado
+    }
+    else{
+        //exibe mensagem de erro
+    }
+} -->
+
+responseText: retorna a resposta do servidor como uma string
+
+responseXML: retorna a resposta em formato XML
+
+status: retorna o estado da solicitação como um numero (200 para OK, 404 para Not Found)
+
+statusText: retorna o texto referente ao estado da solicitação
