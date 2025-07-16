@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 2</title>
+    <script src="bibliotecaAjax.js"></script>
+    <script src="exemplo2.js"></script>
+</head>
+<body>
+    <h2>Lendo uma resposta XML</h2>
+    <form action="javascript:void%200" onsubmit="requisicaoHTTP('GET', 'teste.xml', true); return false">
+        <p><input type="submit" name="testar" value="Testar"><span id="campoResposta"></span></p>        
+    </form>
+</body>
+</html>
