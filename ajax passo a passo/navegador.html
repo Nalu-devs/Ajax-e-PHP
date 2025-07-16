@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compativel</title>
+</head>
+<body>
+    <script>
+        function IniciaAjax(){
+            var ajax;
+            if(window.XMLHttpRequest){//verifica se possui suporte ativo ao objeto (mozilla)
+                ajax = new XMLHttpRequest();
+            }
+            else if(window.ActiveXObject){//tenta fazer o instanciamento como o objeto ActiveX(internet explorer)
+                ajax = new ActiveXObject("Msxml2.XMLHTTP");
+                if(!ajax){
+                    ajax = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+            }
+            else{
+                alert("Seu navegador não possui suporte a essa aplicação!");
+            }
+            return ajax;
+        }
+    </script>
+</body>
+</html>
