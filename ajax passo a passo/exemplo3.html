@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 3</title>
+    <script src="bibliotecaAjax.js"></script>
+    <script src="exemplo3.js"></script>
+</head>
+<body>
+  <form action="javascript:void%200" onsubmit="enviaDados('exemplo3.php'); return false">
+    <p>Nome: <input name="nome" type="text" id="nome" size="50"></p>
+    <p>Cidade: <input name="cidade" type="text" id="cidade" size="40"></p>
+    <p>Estado: <input name="estado" type="text" id="estado" size="2"></p>
+    <p>País: <input name="pais" type="text" id="pais" size="30"></p>
+    <p><input type="submit" name="Consultar" value="Enviar"></p>
+  </form> 
+  <hr><span id="campoResposta"></span>
+</body>
+</html>
