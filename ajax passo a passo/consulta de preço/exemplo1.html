@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1</title>
+    <script src="bibliotecaAjax.js"></script>
+    <script src="exemplo1.js"></script>
+</head>
+<body>
+    <h2>Consulta de preços</h2>
+    <form action="javascript:void%200" onsubmit="obtemPreco(this.codigo.value); return false">
+        <p>Digite o codigo do produto:
+            <input name="codigo" type="text" id="codigo" size="5" maxlength="5">
+            <span id="precoProduto"></span></p>
+        <p><input type="submit" name="consultar" value="consultar"></p>
+    </form>
+</body>
+</html>
