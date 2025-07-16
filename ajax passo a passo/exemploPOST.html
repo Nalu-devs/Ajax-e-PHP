@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Metodo POST</title>
+        <script>
+            var ajax;
+            function IniciaAjax(){
+            var ajax;
+            if(window.XMLHttpRequest){//verifica se possui suporte ativo ao objeto (mozilla)
+                ajax = new XMLHttpRequest();
+            }
+            else if(window.ActiveXObject){//tenta fazer o instanciamento como o objeto ActiveX(internet explorer)
+                ajax = new ActiveXObject("Msxml2.XMLHTTP");
+                if(!ajax){
+                    ajax = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+            }
+            else{
+                alert("Seu navegador não possui suporte a essa aplicação!");
+            }
+            return ajax;
+        }
+
+        function processa(){
+            ajax = IniciaAjax();
+            if(ajax){
+                ajax.onreadystatechange = function(){
+                    if(ajax.readyState == 4){
+                        if(ajax.status == 200){
+                            document.getElementById("resultado").value = ajax.responseText;
+                        }
+                        else{
+                            alert(ajax.statusText);
+                        }
+                    }
+                }
+                nome = document.getElementById("nome").value;
+                valor = document.getElementById("valor").value;
+                dados = 'nome='+nome+"&valor="+valor;
+                ajax.open('POST', 'processa.php', true);
+                ajax.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                ajax.send(dados);
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <form action="" name="form1" method="post">
+            Nome: <input name="nome" type="text" id="nome" value="AnaLu"><br>
+            Digite um valor: <input name="valor" type="text" id="valor" value="3"><br>
+            <button type="button" onclick="processa()">Processar</button>
+            <hr>Resultado: <input type="text" id="resultado" readonly="true" size="60">
+        </form>
+    </body>
+</html>
