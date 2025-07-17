@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="bibliotecaAjax.js"></script>
+<script src="exemplo4.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Exercicio 4</title>
+</head>
+<body>
+<h2>Calculo de preços</h2>
+<form action=javascript:void%200" onsubmit="obtemPreco(this.codigo.value); return false">
+<p>Código do produto:
+<input name="codigo" type="text" id="codigo" size="5" maxlength="5"></p>
+<p>Quantidade:<input name="quant" type="text" id="quant" size="5" maxlength="5"></p>
+<p><input type="submit" name="consultar" value="calcular"></p>
+</form>
+<hr>
+<span id="valorTotal"></span>
+</body>
+</html>
