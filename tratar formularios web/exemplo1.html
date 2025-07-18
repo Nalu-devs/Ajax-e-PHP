@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+    <script src="bibliotecaAjax.js"></script>
+    <script src="exemplo1.js"></script>
+</head>
+<body>
+    <h2>Formulario de cadastro</h2>
+    <form action="javascript:void%200" onsubmit="requisicaoHTTP('GET', 'exemplo1.php', true)">
+        <p>Prencha o formulario:</p>
+        <p>Escolha o nome:<input id="username" name="username" type="text"></p>
+        <p>Seu nome completo:<input id="nome" name="nome" type="text"></p>
+        <p>Aqui podem ser colocados outros campos e um botao de enviar</p>
+    </form>
+</body>
+</html>
