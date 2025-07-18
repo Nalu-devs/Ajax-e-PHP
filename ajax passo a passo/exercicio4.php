@@ -1,5 +1,5 @@
 <?php
-$gmtDate = ("D, d M Y H:i:s");
+$gmtDate = gmdate ("D, d M Y H:i:s");
 header("Expires: {$gmtDate} GMT");
 header("Last-Modified: {$gmtDate} GMT");
 header("Cache-Control: no-cache, must-revalidate");
@@ -19,3 +19,4 @@ echo $produtos [$codigo];
 else{
 echo"0.00";
 }
+?>
