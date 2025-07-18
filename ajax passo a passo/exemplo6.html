@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 6</title>
+    <script src="bibliotecaAjax.js"></script>
+    <script src="exemplo6.js"></script>
+    <link rel="stylesheet" href="estilosTimes.css">
+</head>
+<body>
+    <h2>Times</h2>
+    <form action="javascript:void%200" onsubmit="obtemInfo(this.time[time.selectedIndex].value); return false">
+        <p>Escolha o time a ver as informações sobre ele!</p>
+        <p>
+            <select name="time" id="time">
+                <option value="gremio">Gremio</option>
+                <option value="palmeiras">Palmeiras</option>
+                <option value="cruzeiro">Cruzeiro</option>
+                <option value="flamengo">Flamengo</option>
+                <option value="corinthians">Corinthians</option>
+            </select>
+        </p>
+        <p><input type="submit" id="exibir" name="exibir" value="Exibir informações"></p>
+    </form>
+    <div id="saida"></div>
+</body>
+</html>
