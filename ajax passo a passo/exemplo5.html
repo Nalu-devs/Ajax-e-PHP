@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 5</title>
+    <script src="bibliotecaAjax.js"></script>
+    <script src="exemplo5.js"></script>
+</head>
+<body>
+    <h2>Cabeçalhos HTTP</h2>
+    <form action="javascript:void%200" onsubmit="requisicaoHTTP('GET', 'exemplo1.php', true); return false">
+        <p>Clicando no botão abaixo, você verá os cabeçalhos HTTP do programa exemplo1.php</p>
+        <p><input type="submit" name="exibir" id="exibir" value="Exibir"></p>
+    </form>
+    <span id="saida"></span>
+</body>
+</html>
