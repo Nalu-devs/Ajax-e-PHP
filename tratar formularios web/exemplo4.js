@@ -22,3 +22,9 @@ function exbirCidades(estado){
     var url= "exemplo4.php?estados="+encodeURIComponent(lista);
     requisicaoHTTP("GET", url, true);
 }
+
+function trataDados(){
+    var info = ajax.responseText;
+    var resposta = document.getElementById("respota");
+    resposta.innerHTML = info;
+}
