@@ -25,7 +25,7 @@ function iniciaRequisicao(tipo, url, bool){
     ajax.onreadystatechange = trataResposta;
     ajax.open(tipo, url, bool);
     ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-    ajax.overrideMimeType("text/XML");
+    ajax.overrideMimeType("text/plain");
     ajax.send(dadosUsuario);
 }
 
