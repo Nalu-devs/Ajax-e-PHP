@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="loja.js"></script>
+    <script src="bibliotecaAjax.js"></script>
+</head>
+<body>
+    <h2>Bem vindo a loja virtual</h2>
+    <table width="800" border="0" align="center">
+        <tr valign="top">
+            <td colspan="3"><div align="right">
+                <p>
+                    <span id="avisos"></span>&nbsp;&nbsp;
+                    <a href="javascript:Loja('inicio',0);">Home</a>&nbsp;&nbsp;
+                    <a href="javascript:Loja('carrinho',0);">Meu carrinho</a>
+                </p>
+            </div></td>
+        </tr>
+        <tr valign="top">
+            <td width="150" class="fundocinza">
+                <p class="titulo">Categorias</p>
+                <p><?php include "php/mostraMenu.php";?></p>
+            </td>
+            <td width="20">&nbsp;</td>
+            <td width="630" class="fundolaranja">
+                <div id="conteudo"></div>
+            </td>
+        </tr>
+    </table>
+    <p align="center" class="rodape">Copyright &copy; Loja Virtual - Todos os direitos reservados</p>
+    <p align="center">&nbsp;</p>
+</body>
+</html>
