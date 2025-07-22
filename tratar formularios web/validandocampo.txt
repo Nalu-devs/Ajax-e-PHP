@@ -1,0 +1,25 @@
+podemos validar os campos que queremos tornar como obrigatorios de diversas formas
+
+1. Se deseja que um campo seja obrigatorio:
+    function valida(nomeForm){
+        if(nomeForm.nomeCampo.value = ""){
+            alert("Por favor digite o ...");
+            return false;
+        }
+    }
+
+2. Se deseja tornar como obrigatorio uma quantidade de caracter:
+    function valida(nomeForm){
+        if(nomeForm.cep.value.length<8){
+            alert("O cep deve conter 8 digitos");
+            return false;
+        }
+    }
+
+3. Se deseja tornar como obrigatorio algum caracter como o @ do email (existe formas mais atuais):
+    function valida(nomeForm){
+        if(nomeForm.email.value.indexOf('@', 0)==-1){
+            alert("Email invalido");
+            return false;
+        }
+    }
