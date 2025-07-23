@@ -1,0 +1,15 @@
+array - cria um Array
+array_change_key_case - retorna um array com todas as chaves em letras maiusculas ou minusculas
+array_chunk - divide um array e m diversos arrays com um determinado tamanho
+array_combine - cria um array usando um array para chaves e outros para valores
+array_count_values - conta todos os valores de um array
+array_diff_assoc - computa a diferença de earrays, checando tambem os indices
+array_diff_key - computa a difernça de arrays usando as chaves para comparação
+array_diff_uassoc - computa a diferença de arrays, checando tambem os indices por meio de uma função definida pelo usuario
+array_diff_ukey - computa a diferença de arrays usando uma funçao callback nas chaves de comparação
+array_diff - calcula a diferença entre arrays
+array_fill - preenche um array com um determinado valor
+array_filter - filtra elementos do array ultilizando a função de callback
+array_flip - retorna um array com chaves e valores trocados
+array_intersect - calcula a intersecção entre arrays
+array_intersect_key - computa a intersecção de arrays com checagem adicional de indices por meio da função callback
