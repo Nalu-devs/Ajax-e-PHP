@@ -6,7 +6,7 @@
     <title>Loja Virtual</title>
     <link rel="stylesheet" href="estilos.css">
     <script src="loja.js"></script>
-    <script src="bibliotecaAjax.js"></script>
+    <script src="js/bibliotecaAjax.js"></script>
 </head>
 <body>
     <h2>Bem vindo a loja virtual</h2>
