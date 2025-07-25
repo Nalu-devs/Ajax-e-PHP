@@ -12,7 +12,7 @@ $semana = [
     "domingo"
 ];
 
-$semanaReversa = array_reverse($semana);
-print_r($semanaReversa);
+$semanareversa = array_reverse($semana);
+print_r($semanareversa);
 
 ?>

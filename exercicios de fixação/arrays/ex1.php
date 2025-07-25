@@ -1,5 +1,5 @@
-<!-- Crie um array associativo chamado $aluno que contenha as chaves "nome", "idade" e "curso" 
-com valores fictícios. Depois, exiba o valor do curso na tela. -->
+<!-- Crie um array associativo chamado $aluno que contenha as chaves 
+"nome", "idade" e "curso" com valores fictícios. Depois, exiba o valor do curso na tela. -->
 
 <?php
 $aluno = array(

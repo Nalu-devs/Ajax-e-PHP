@@ -1,5 +1,5 @@
-<!-- Crie um array com os nomes de 5 pessoas.
-Use um foreach para exibir a posição (índice) e o nome de cada pessoa. -->
+<!-- Crie um array com os nomes de 5 pessoas. Use um foreach para exibir a posição (índice)
+e o nome de cada pessoa.-->
 
 <?php
 

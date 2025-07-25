@@ -1,4 +1,5 @@
-<!-- Dado um array com nomes repetidos:"Ana", "Lucas", "Ana", "João", "Lucas", "Bia" 
+<!-- Dado um array com nomes repetidos:
+$nomes = ["Ana", "Lucas", "Ana", "João", "Lucas", "Bia"];
 Remova os nomes duplicados e exiba o array final. -->
 
 <?php

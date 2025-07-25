@@ -1,5 +1,5 @@
-<!-- Crie dois arrays, um com frutas e outro com legumes. Junte os dois arrays em um só 
-e exiba o resultado. -->
+<!-- Crie dois arrays, um com frutas e outro com legumes. Junte os dois arrays em um só e exiba 
+o resultado. -->
 
 <?php
 $frutas = array(

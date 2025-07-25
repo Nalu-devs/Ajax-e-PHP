@@ -11,6 +11,7 @@ $frutas = array(
     "uva"
 );
 
-if(in_array("banana", $frutas)==TRUE){
-    echo "Banana esta no array: ".$fruta[1]
+if(in_array("banana", $frutas)){
+    echo $frutas[1]; // banana está no índice 1
 }
+?>

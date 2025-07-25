@@ -1,4 +1,6 @@
-<!-- Dado o array: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 Filtre apenas os números pares -->
+<!-- Dado o array:
+$numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+Filtre apenas os números pares usando array_filter(). -->
 
 <?php
 
