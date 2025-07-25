@@ -1,0 +1,1 @@
+<!-- O que significa encapsulamento? Crie um exemplo simples que demonstre esse conceito. -->
