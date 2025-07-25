@@ -12,4 +12,63 @@ array_fill - preenche um array com um determinado valor
 array_filter - filtra elementos do array ultilizando a função de callback
 array_flip - retorna um array com chaves e valores trocados
 array_intersect - calcula a intersecção entre arrays
-array_intersect_key - computa a intersecção de arrays com checagem adicional de indices por meio da função callback
+array_intersect_key - computa a intersecção de arrays usando as chaves para comparação
+array_intersect_uassoc - computa a intersecção d arrays com checagem adicional de indices por meio de função callbak
+array_intersect_ukey - computa a intersecção de arrays usando uma função callback nas chaves para comparação
+array_intersect_assoc - calcula a intersecção entre arrays, comparando tambem as chaves dos elementos
+array_key_exists - verifica se uma determinada chave existe no array
+array_keys - retorna todas as chaves de um array
+array_map - aplica o callback sobre os elementos do array determinado
+array_merge - une dois ou mais array
+array_merge_recursive - une dois ou mais arrays recursivamente
+array_multisort - ordena arrays multidimensionais
+array_pad - preenche determinado tamanho de um array
+array_pop - retira um elemento do fim do array
+array_product - calcula o produto dos valores em um array
+array_push - insere um elemento no fim do array
+array_rand - retorna chaves para entradas randomicas de um array
+array_reduce - reduz um array a um valor simples
+array_reverse - retorna um array com seus elementos em ordem reversa
+array_search - procura um valor em um array e, se encontrar, retorna sua chave correspondente
+array_shift - retira um elemento do inicio do array
+array_slice - retorna uma parte do array
+array_splice - substitui uma parte do array
+array_sum - soma os elementos de um array
+array_udiff_assoc - computa a difernça de arrays com checagem adicional de indices. compara os dados com uma função callback
+array_udiff_uassoc - computa a diferença de arrays com checagem adicional de indices. compara os dados e indice com função callback
+array_udiff - computa a diferença de arrays usando uma função callback para comparar os dados
+array_uintersect_assoc - computa a intersecção de arrays com checagem adicional de indices. compara os dados com uma função callback
+array_uintersect_uassoc - computa a intersecção de arrays com checagem adicional de indices. compara os dados e indices com uma função callback
+array_uintersect - computa a intersecção de arrays, usando uma função callback para comparar os dados.
+array_unique - remove valores duplicados de um array
+array_unshift - coloca um ou mais elementos no indice do array
+array_values - retorna todos os valores de um array
+array_walk_recursive - aplica uma função recursivamente a cada membro do array
+array_walk - aplica determinada função sobre cada membro do array
+arsort - ordena um array em ordem reversa
+asort - ordena um array
+compact - cria um array contendo variaveis e seus valores
+count - conta o numero de elementos de uma variavel ou array
+current - retorna o elemento corrente de um array
+each - retorna o proximo par chave/valor de um array
+end - aponta o ponteiro interno do array para seu ultimo elemento
+extract - importa variaveis de um array para a tabela de simbolos
+in_array - retorna TRUE se determinado valor existir no array
+key - busca uma chave de um array associativo
+krsort - ordena um array por chave em ordem reversa
+ksort - ordena uma array por chave
+list - atribui valores de um array a variaveis especificas
+natsort - ordena um array usando o algoritmo "natural order"
+natcasesort - ordena um array usando o algoritmo "natural order" não diferenciando letras maiusculas ou minusculas
+next - avança o ponteiro interno de um Array
+pos - obtem o elemento corrente de um array
+prev - retrocede um ponteiro interno de um array
+range - cria um array contendo determinada faixa de inteiros
+reset - coloca o ponteiro interno do array em seu primeiro elemento
+rsort - ordena um array em ordem reversa
+shuffle - embaralha um array trocando a ordem de seus elementos de forma aleatoria
+sizeof - obtem o numero de elementos de um array
+sort - ordena um array
+uasort - ordena um array com uma funçao definida pelo usuario e mantem a indexação
+uksort - ordena um array pelas chaves com uma função definida pelo usuario
+usort - ordena um array por valores com uma funçao definida pelo usuario
