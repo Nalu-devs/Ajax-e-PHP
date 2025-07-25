@@ -1,0 +1,15 @@
+call_user_method_array - chama um metodo do usurario com um array de parametro
+call_user_method - chama um metodo do usuario em um objeto especifico
+class_exists - testa se a classe foi definida
+get_class - retorna o nome da classe de um objeto
+get_class_methods - retorna um array com nome dos metodos da classe
+get_class_vars - retorna um array com as propriedades-padrao da classe
+get_declared_classes - retorna um array com nome das classes definidas
+get_declared_interfaces - retorna um array com todas as interfaces declaradas
+get_object_vars - retorna um array associativo das propriedades do objeto
+get_parent_class - retona o nome da class-pai(parent) de um objeto
+interface_exists - checa se a interface foi definida
+is_a retorna TRUE se o objeto for da classe especificada ou a tiver especificada
+is_subclass_of - determina se um objeto pertence a uma subclasse da classe especificada
+method_exists - testa se o metdo existe na classes
+property_exists - checa se um objeto ou classe possui determinada propriedade.
