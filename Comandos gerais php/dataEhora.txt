@@ -1,0 +1,18 @@
+checkdate - valida uma data/hora
+date_default_timezone_get - obtem o fuso horario padrão usado pelas funções de data/hora em um script
+date_default_timezone_set - define o fuso horario padrão usado pelas funções de data/hora em m script
+date_sunrise - retorna a hora do nascer do sol (sunsire) de um dia e local
+date_sunset - retorna a hora do por do sol (sunset) de um dia e local
+date - formata uma data/hora
+getdate - retorna informações sobre data/hora
+gettimeofday - retorna a hora atual
+gmdate - formata uma data/hora GMT/CUT
+gmmktime - obtem uma data/hora GMT no formato UNIX timestamp
+gmstrftime - formata uma dtaa/hora GMT/CUT conforme as configurações locais
+localtime - obtem a hora local
+microtime - retorna o UNIX timestamp corrente em microsegundos
+mktime - obtem o UNIX timestamp a partir de uma data
+strftime - formata uma data-hora local conforme as configurações locais
+strptime - analisa uma data/hora gerada pela funçao strftime
+strtotime - tenta traduzir uma string para o formato UNIX timestamp
+time - retorna a data atual no formato UNIX timestamp
