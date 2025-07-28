@@ -1,0 +1,34 @@
+ftp_alloc - aloca espaço para um arquivo a ser enviado (upload) para o servidor
+ftp_cdup - altera para o diretorio que esta um nivel acima (parent)
+ftp_chdir - altera o diretorio em um servidor FTP
+ftp_chmod - define as permissoes de um arquivo via FTP
+ftp_close - fecha uma conexao FTP 
+ftp_connect - abre uma conexao FTP
+ftp_delete - exclui arquivos em um servidor FTP
+ftp_exec - solicita a execução de um programa no servidor FTP
+ftp_fget - faz o download de um arquivo do servidor FTP e salva em um arquivo aberto
+ftp_fput - envia de um arquivo aberto para um servidor FTP
+fpt_get_option - retorna diversas configurações em tempo de execução da conexão FTP corrente
+ftp_get - faz o download de um arquivo do servidor FTP
+ftp_login - realiza o login em uma conexao FTP
+ftp_mdtm - retorna a hora d aultima modificação de determinado arquivo
+ftp_mkdir - cria um diretorio
+ftp_nb_continue - continua enviando ou recebendo um arquivo (não bloqueante)
+ftp_nb_fget - retorna um arquivo de um servidor FTP e o grava em um arquivo aberto (não bloqueante)
+ftp_nb_fput - armazena um arquivo aberto em um servidor FTP (não bloqueante)
+ftp_nb_get - retorna um arquivo de um servidor FTP e o grava em um arquivo local (não bloqueante)
+ftp_nb_put - armazena um arquivo no servidor FTP (não bloqueante)
+ftp_nlist - retorna uma lista dos arquivos em determinado diretorio
+ftp_pasv - ativa ou desativa o modo passivo
+ftp_put - envia(upload) um arquivo oara um servidor FTP
+ftp_pwd - retorna o nome do diretorio corrente
+ftp_quit - fecha uma conexao FTP
+ftp_raw - envia um comando arbitrário para um servidor FTP
+ftp_rawlist - retorna uma lista detalhada dos arquivos em determinado diretorio
+ftp_rename - renomeia arquivos em um servidor FTP
+ftp_rmdir - remove um diretorio
+ftp_set_option - define diversas opções do FTP em tempo de execução
+ftp_site - envia um comando do tipo SITE ao servidor
+ftp_size - retorna o tamanho determinado do arquivo
+ftp_ssl_connect - abre uma conexao segura SSL-FTP
+ftp_systype - retorna o identificador do tipo de sistema do servidor remoto de FTP
