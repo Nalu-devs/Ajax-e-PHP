@@ -1,0 +1,31 @@
+abs - valor absoluto
+acos - arco coseno 
+acosh - arco coseno hiperbolico 
+asin - arco seno 
+asinh - arco seno hiperbolico
+atan - arco tangente 
+atan2 - arco tangente de duas variaveis
+atanh - arco tangente hiperbolico
+base_convert - converte um numero entre duas bases arbitrarias
+bindec - converte de binario para decimal
+ceil - arredonda frações para cima
+cos - coseno
+cosh - coseno hiperbolico
+decbin - converte de decimal para binario
+dechex - converte de decimal para hexadecimal
+decoct - converte de decimal para octal
+deg2rad - converte um numero de graus para radianos
+exp - eleva "e" a determinada potencia
+expm1 - retorna exp(numero)-1 calculado de forma precisa mesmo quando o numero for proximo de zero
+floor - arredonda frações para baixo
+fmod retorna um ponto flutuante o resto da divisão dos argumentos
+getrandmax - mostra o maior valor randomico possivel
+hexdec - converte de hexadecimal para decimal
+hypot - aplica a formula da hipotenusa aos valores fornecidos ou seja sqrt(num1*num1 + num2*num2)
+is_finite - verifica se um valor em ponto flutuante é finito dentro dos limites da plataforma
+is_infinite - verifica se um valor em ponto flutuante é infinito dentro dos limites da plataforma ex: log(0)
+is_nan - retorna true se o valor fonecido não for um numero (not a number)
+lcg_value - retorna um numero pseudo-aleatorio entre 0 e 1
+log - logaritmo natural
+log10 - logaritmo de base 10
+log1p - retorna log(1+numero)
