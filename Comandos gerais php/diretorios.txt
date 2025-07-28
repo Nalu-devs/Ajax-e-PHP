@@ -1,0 +1,9 @@
+chdir - altera o diretorio corrente
+chroot - altera o diretorio do root
+dir - classe diretorio
+closedir - fecha o handle do diretorio
+getcwd - obtem o diretorio corrente de trabalho
+opendir - abre um handle de diretorio
+readdir - le uma entrada a partir do handle do diretorio
+rewinddir - retrocede o handle do diretorio
+scandir - lista os arquivos e diretorios existentes no caminho especificado
