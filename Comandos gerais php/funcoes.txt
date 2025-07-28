@@ -1,0 +1,11 @@
+call_user_func_array - chama uma função do usuario passando um array de parametro
+call_user_func - chama uma funcao do usuario passando o primeiro parametro
+create_function - cria uma função anonima (estilo lambda)
+func_get_arg - retorna um item da lista de argumentos
+func_get_args - retorna um array contendo a lista de argumentos da função
+func_num_args - retorna o numero de argumentos passandos para uma funçao
+function_exists - testa se uma função foi definida
+get_defined_functions - retorna um array contendo a lista de todas as funções definidas
+register_shutdown_function - registra uma função para ser executada ao termido do script
+register_tick_function - registra uma função para executar a cada instante
+unregister_tick_function - cancela o registro de uma função registrada com register_tick_function
