@@ -1,0 +1,87 @@
+exif_imagetype - determina o tipo de imagem pela eitura de seus primeiros bytes
+exif_read_data - le os cabeçalhos EXIF de arquivos do tipo JPEG ou TIFF
+exif_thumbnail - retorna a miniatura (thombnail) embutida em uma imaggem TIFF ou JPEG
+gd_info - retorna informações sobre a biblioeca GD atualmente instalada
+image_type_to_mine_type - obtem o tipo MIME de um tipo de imagem retornado pelas funções getimagesize, exif_read_data, exif_thumbnail,exif_imagetype
+image2wbmp - envia uma imagem do tipo WBMP para o navegador ou para um arquivos
+GetImageSize - retorna o tamanho de uma imagem GIF, JPEG, PNG ou SWF
+ImageAlphaBlending - define o modo de transparencia de uma imagem
+ImageArc - desenha uma elipse parcial
+ImageFilledArc - desenha uma elipse parcial preenchida
+ImageEllipse - desenha uma elipse
+ImageFilledEllipse - desenha uma elipse preenchida
+ImageChar - desenha um caracter horizontalmente
+ImageCharUp - desenha um caractere verticalmente
+ImageColorAllocate - aloca uma cor para uma imagem
+ImageColorAllocateAlpha - aloca uma cor para uma imagem. é semelhate a outra função possuindo um parametro adicional para definir a transparencia
+ImageColorDeAllocate - desloca uma cor para uma imagem
+ImageColorAt - retorna o indice da cor de um pixel
+ImageColorCloset - retorna o indice da cor mais proxima a especificada
+ImageColorClosetAlpha - obtem o indice da cor mais proxima a cor especificada, considerando o parametro transparencia
+ImageColorClasestHWB - obtem o indice da cor que possui o tom,branco e preto mais proximo da cor especificada
+ImageColorExact - retorna o indice de uma cor especificada
+ImageColorExactAlpha - retona o indice de uma cor especificada mais alpha 
+ImageColorMatch - faz com que a versão das cores da paleta sejam mais proximas da versão truecolor
+ImageColorResolve - retorna o indice de uma cor ou sua alternativa mais proxima
+ImageColorResolveAlpha - retorna o indice de uma cor + alpha ou sua alternativa mais proxima
+ImageGammaCorrect - aplica uma correção gamma em uma imagem GD
+ImageColorSet - define a cor para o indice da paleta especificada
+ImageColorsForIndex - obtem as cores para um indice
+ImageColorsTotal - retorna o numero de cores de uma paleta de ImageColorsForIndex
+ImageColorTransparent - define uma cor como transparente
+ImageCopy - copia parte de uma imagem
+ImageCopyMerge - copia e une parte de uma imagem
+ImageCopyMergeGray - copia e une parte de uma imagem com tons de cinza
+ImageCopyResized copia e redimenciona parte de uma imagem
+ImageCopyResampled - copia e redimensiona parte de uma imagem com resampling
+ImageCreate - cria uma nova imagem
+ImageCreateTrueColor - cria uma nova imagem true ImageColorAllocate
+ImageTrueColorToPalette - converte uma imagem de true color para pallete 
+ImageCreateFromGD2 - cria uma nova imagem a partir de um arquivo GD2 ou de um URL
+ImageCreateFromGD2part - cria uma nova imagem baseada em uma parte de um arquivo GD2 ou de um URL
+ImageCreateFromGD - cria uma nova imagem a partir de um arquivo GD ou de um URL
+ImageCreateFromGIF - cria uma nova imagem a partir de um arquivo GIF ou URL
+ImageCreateFromJPEG - cria uma nova imagem a partir de um arquivo JPEG ou URL
+ImageCreateFromPNG - cria uma nova imagem a partir de um arquivo PNG ou URL
+ImageCreateFromWBMP - cria uma nova imagem a partir de um arquivo WBMP ou URL
+ImageCreateFromString - retorna um identificador representando a imagem obtida de determinada string 
+ImageCreateFromXBM - cria uma nova imagem a partir de um arquivo XBM ou URL
+ImageCreateFromXPM - cria uma nova imagem a partir de um arquivo XPM ou URL
+ImageDashedLine - desenha uma linha pontilhada
+ImageDestroy - destroi uma imagem
+ImageEllipse - desenha uma elipse
+ImageFill - preenche uma imagem ou parte dela 
+ImageFilledArc - desenha uma elipse parcial preenchida com determinada cor
+ImageFilledEllipse - desenha uma elipse preenchida com determina cor
+ImageFillelPolygon - desenha um poligono preenchido
+ImageFilledRectangle - Desenha um retangulo preenchido
+ImageFillToBorder - preenche uma imagem com determinada cor
+ImageFontHeight - obtem a altura da fonte 
+ImageFontWidth - obtem a largura da fonte 
+ImageFtbBox - usa fontes FreeType 2 para definir uma caixa (bounding box) para o texto
+ImageFtText - escreve um texto em uma imagem usando fontes FreeType 2
+ImageGD2 - envia uma imagem GD2 ppara o browser um para um arquivo
+ImageGD - envia uma imagem GD para o browser ou para um arquivo
+ImageGIF - envia uma imagem GIF para o browser ou para um arquivo
+ImagePNG - envia uma imagem PNG para o browser ou para um arquivo
+ImageJPEG - envia uma imagem JPEG para o browser ou para um arquivo
+ImageWBMP - envia uma imagem WBMP para o browser ou para um arquivo
+ImageInterlace - habilita ou desabilita o entrelaçamento
+ImageIsTrueColor - verifica se a imagem é true color (24 bit)
+ImageLine - desenha uma linha
+ImagemLoadFont - carrega uma nova fonte
+ImagePaletteCopy - copia a paleta de cores de uma imagem para a outra
+ImagePoligon - desenha um poligono
+ImagePSBBox - usa uma fonte postscript e define uma caixa para o texto
+ImagePSCopyFont - faz a copia de uma font ja carregada para posterior modificação
+ImagePSEncodeFont - altera o vetor de codificaçõa de caracteres para uma fonte
+ImagePSExtendFont - estende ou condensa uma fonte
+ImagePSFreeFont - libera a memoria usada por uma fontr postscript do tipo 1
+ImagePSLoadFont - carrega uma fonte postscript tipo 1 de um arquivo
+ImagePSSlantFont - incline uma fonte
+ImagePSText - desenha um texto sobre a imagem
+ImageRotate - realiza uma rotação em uma imagem considerando o angulo especificado
+ImageSaveAlpha - usada em imagens PNG para configurar a flag que indixa se as informações sobre o canal alfa devem ser salvas
+ImageSetPixel - define u pixel simples
+ImageSetBrush - define uma imagem para desneho de linhas
+ImageSetStyle - define o estilo para o desenho de lihas 
