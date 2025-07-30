@@ -1,0 +1,41 @@
+pdf_active_item - ativa um elemento de estrutura ou outro item de conteudo
+pdf_add_nameddest - cria um detino nomeado em uma pagina do documento corrente
+pdf_add_thumbnail - adiciona a pagina corrente uma miniatura(thumbnail)
+pdf_arc - desenha um arco em sentido anti-horario
+pdf_arcn - desenha um arco em sentido horario
+pdf_begin_document - cria um novo arquivo PDF 
+pdf_begin_font - inicia uma definição de fonte Type 3
+pdf_begin_glyph - inicia uma definição glyph de uma fonte Type 3
+pdf_begin_item - abre um elemento de estrutura ou outro item de conteudo
+pdf_begin_layer - inicia uma camada, que recebera as saidas seguintes
+pdf_begin_page_ext - inicia uma nova pagina no documento, definindo tambem varias opções
+pdf_begin_pattern - inicia a definição de um novo padrão(pattern), que podera ser utilizado para o preenchimento de objetos
+pdf_begin_template - inicia a definição de um novo modelo (template)
+pdf_circle - desenha um circulo
+pdf_clip - seleciona o caminho atual, definindo-o como clip path 
+pdf_close_image - fecha uma imagem
+pdf_close_pdi_page - fecha uma pagina aberta com a função pdf_open_pdi_page
+pdf_close_pdi - fecha um documento PDI aberto com a função pdf_open_pdi
+pdf_closepath_fill_stroke - completa o camino corrente(adicionando uma linha do ultimo ao primeiro ponto), preenchendo-o e desenhando-o no documento
+pdf_closepath_stroke - completa o caminho corrente (adicionando uma linha doo ultim ao primeiro ponto) e desenha no documento
+pdf_closepath - completa o caminho corrente adicionando uma linha do ultimo ao primeiro ponto
+pdf_concat - concatena uma matriz à atual matriz utilizada para transformação de textos e graficos(CTM)
+pdf_continue_text - escreve um texto na proxima linha do documento
+pdf_create_action - cria uma ação para objetos ou eventos
+pdf_create_annotation - cria uma anotação retangular
+pdf_create_bookmark - cria um bookmark 
+pdf_create_field - cria um campo de formulario na pagina corrente
+pdf_create_fieldgroup - cria um grupo de campos de formularios
+pdf_create_gstate - cria um objto de estado grafico
+pdf_create_pvf - cria um arquivo virtual PDFlib a partir dos dados em memoria
+pdf_create_textflow - cria o objeto de fluxo de texto
+pdf_curveto - desenha uma curva Bezier a partir do ponto corrente, utilizando outros três pontos de controle
+pdf_define_layer - cria a definição de uma camada (layer)
+pdf_delete_pvf - exclui um arquivo virtual PDFlib
+pdf_delete_textflow - exclui um objeto de fluxo de texto
+pdf_delete - exclui um objeto PDF e libera todos os recursos associados a ele 
+pdf_encodign_set_char - adiciona um nome glyph e/ou um valor Unicode a uma codificação personalizada
+pdf_end_document - fecha um arquivo PDF
+pdf_end_font - encerra a definição de uma fonte Type 3
+pdf_end_glyph - encerra a definição glyph de uma fonte Type 3
+pdf_end_item - fecha um elemento de estrutura 
