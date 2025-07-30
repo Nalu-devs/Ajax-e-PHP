@@ -28,4 +28,22 @@ is_nan - retorna true se o valor fonecido não for um numero (not a number)
 lcg_value - retorna um numero pseudo-aleatorio entre 0 e 1
 log - logaritmo natural
 log10 - logaritmo de base 10
-log1p - retorna log(1+numero)
+log1p - retorna log(1+numero), calculado de forma precisa mesmo quando o numero for proximo de zero
+max - retorna o maior valor
+min - retorna o menor valor
+mt_rand - gera um valor randomico melhor
+mt_srand - define o melhor gerador de numeros randomicos
+mt_getrandmax - mostra o maior valor randomico possivel
+number_format - formata um numero
+octdec - converte de octal para decimal
+pi - retorna o valor do numero pi
+pow - eleva um numero a outro
+rad2deg - converte um numero de radianos para graus
+rand - gera um numero aleatorio
+round - arredonda um numero em ponto flutuante
+sin - seno
+sinh - seno hiperbolico
+sqrt - raiz quadrada
+srand - define um gerador de numeros aleatorios
+tan - tangente
+tanh - tangente hiperbolico
