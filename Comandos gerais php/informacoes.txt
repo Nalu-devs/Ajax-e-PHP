@@ -1,0 +1,44 @@
+assert - checa se uma declaração é falsa
+assert_options - define/obtem diversas flags sobre o assert
+extension_loaded - verificase uma extensão foi carregada
+dl - carrega uma extensão do PHP em tempo de execução
+getenv - obtem o valor de uma variavel de ambiente
+get_cfg_var - obtem o valor de uma opção de configuração do PHP
+get_current_user - obtem o nme do dono do script PHP corrente
+get_defined_constants - retorna um array associativo com os nomes e valores das constantes definidas
+get_loaded_extensions - retorna um array com nomes dos modulos carregados
+get_extensions_funcs - retorna um array com os nomes das funções de um modulos
+get_required_files - retorna um array com os nomes dos arquivos requeridos em um script
+get_included_files - retorna um array com os nomes dos arquivos incluidos em um script
+get_magic_quotes_gpc - retorna a configuração ativa
+get_magic_quotes_runtime - retorna a configuração ativa de get_magic_quotes_runtime
+getlastmod - retorna a hora de modificação da última página
+getmygid - retorna o identificador do grupo (GID) do proprietario do script corrente
+getmyinode - retorna o inode do script corrente
+getmypid - retorna o ID do processo PHP
+getyuid - retorna o UID do dono do script
+getopt - retorna um array associativo com pares opções/argumentos, baseado na lista de argumentos da linha de comando
+getrusage - obtem os recursos que estao sendo usados
+ini_alter - altera o valor de uma opção de configuração
+ini_get_all - obtem o valor de todas opções de configuração
+ini_get - obtem o valor de uma determinada opção de configuração
+ini_restore - restura o valor de uma opção de configuração
+ini_set - define o valor de uma opção de configuração
+memory_get_peak_usage - retorna o maximo de memoria usada pelo script PHP
+memory_get_usage - retorna a quantidade de memoria alocada para o script PHP
+php_ini_scanned_files - retorna uma lista de arquivos .ini analisados apos o php.ini. os elementos separados por virgula
+phpcredits - imprime os creditos do PHP
+phpinfo - imprime informações sobre o PHP
+phpversion - retorna a versão do PHP
+php_logo_guid - obtem o logo guid 
+php_sapi_name - retorna o tipo de interface entre o servidor web e o PHP
+php_uname - retorna informações sobre o sistema operacional
+putenv - define o valor de uma variavel de ambiente
+restore_include_path - restura o valor da opção de configuração include_path
+set_include_path - define um valor para a opção de configuração include_path 
+set_magic_quotes_runtime - define a configuração ariva de magic_quotes_runtime
+set_time_limit - limita o tempo maximo de execução
+sys_get_temp_dir - retorna o caminho do diretorio usado para armazenar arquivos temporarios
+version_compare - compara duas strings padronizadas, contendo o numero da versao do PHP
+zend_logo_guid - obtem o zend guid
+zend_version - obtem a versão da ferramenta Zend
