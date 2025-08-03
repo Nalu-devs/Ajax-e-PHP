@@ -5,12 +5,10 @@ o método falar(). -->
 <?php
 
 class Animal{
-
     public function falar(){
         echo "Som do animal";
     }
 }
-
 // Classe filha que herda de Animal
 class Cachorro extends Animal {
     // Sobrescreve o método falar()
@@ -21,8 +19,6 @@ class Cachorro extends Animal {
 
 // Instancia o objeto da classe Cachorro
 $meuCachorro = new Cachorro();
-
 // Chama o método falar()
 $meuCachorro->falar();
-
 ?>
